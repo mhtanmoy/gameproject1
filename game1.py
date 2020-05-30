@@ -127,5 +127,5 @@ while not game_over:
     scale_img = scale_img.convert()
     dis.blit(scale_img, rect)
     
-    clock.tick(20)
+    clock.tick(30)
     pg.display.update()
